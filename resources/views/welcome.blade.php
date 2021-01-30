@@ -12,7 +12,7 @@
                     pretty much free to do whatever you want with it (even use it commercially) provided you give us
                     credit for it. Have fun :)
                 </p>
-                <a href="#" class="button">Etiam posuere</a>
+                <a href="/about" class="button">About Us</a>
             </div>
         </div>
     </div>

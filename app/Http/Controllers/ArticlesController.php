@@ -63,9 +63,10 @@ class ArticlesController extends Controller
     }
 
     // Delete the resource
-    public function destroy() //DELETE
+    public function destroy(Article $article) //DELETE
     {
-
+        $article->delete();
+        return redirect(route('articles.index'));
     }
 
     protected function validateArticle()

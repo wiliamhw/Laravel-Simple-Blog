@@ -54,6 +54,25 @@ a:hover {
 }
 
 
+.right-section {
+    float: right;
+}
+
+._button {
+    display: flex;
+    justify-content: center;
+}
+
+.tag {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #0074C6;
+}
+
+.tag a {
+    color: white
+}
+
 /*********************************************************************************/
 
 
@@ -368,7 +387,7 @@ ul.contact li a.icon-rss:before {
 
 #logo {
     position: absolute;
-    top: 6em;
+    top: 5em;
     width: 100%;
 }
 
@@ -417,7 +436,7 @@ ul.contact li a.icon-rss:before {
 #menu {
     position: absolute;
     right: 0;
-    top: 6em;
+    top: 5em;
 }
 
 #menu ul {
